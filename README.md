@@ -1,17 +1,17 @@
-# iseng_iseng
+# Latihan 005 - Aplikasi Mobile
 
-A new Flutter project.
+Proyek ini dibuat untuk memenuhi tugas praktikum mata kuliah Pemrograman Mobile. Sesuai instruksi, *repository* ini menggunakan *project* Flutter yang diinisiasi baru dari nol, terpisah dari proyek pertemuan sebelumnya.
 
-## Getting Started
+### Data Mahasiswa
+- **Nama:** Chaerul Azriel Ardiansyah
+- **NIM:** 1124160129
+- **Kelas:** TI24PSE1
+- **Program Studi:** Teknik Informatika (Institut Teknologi dan Bisnis Bina Sarana Global)
 
-This project is a starting point for a Flutter application.
+### Deskripsi
+Aplikasi ini merupakan ruang kerja (*workspace*) baru untuk mempraktikkan materi pertemuan kelima. Proyek di-*build* dan diuji coba secara langsung menggunakan perangkat fisik Android.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Cara Menjalankan
+1. Pastikan perangkat Android sudah terhubung via *USB Debugging*.
+2. Buka terminal dan arahkan ke direktori proyek.
+3. Jalankan perintah `flutter run`.
