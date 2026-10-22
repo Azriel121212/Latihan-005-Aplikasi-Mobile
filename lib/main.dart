@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 
-void main(){
-  runApp(MyApp());
+void main() {
+  runApp(const MyApp()); // Ditambah const biar lebih optimal
 }
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -15,11 +16,34 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
-        appBar: AppBar(title: Text("My First App"),
-        iconTheme: IconThemeData(color: Colors.white),
+        appBar: AppBar(
+          title: const Text(
+            "Tugas Mobile Azriel",
+            style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white),
+          ),
+          backgroundColor: Colors.blueAccent,
+          centerTitle: true,
+          leading: const Icon(Icons.code, color: Colors.white), // Tambahan ikon di kiri atas
         ),
-        body: Center(child: Text("Hello World"),),
+        body: const Center(
+          child: Text(
+            "Hello World",
+            style: TextStyle(
+              fontSize: 28, // Teks diperbesar
+              fontWeight: FontWeight.bold,
+              color: Colors.blueGrey,
+            ),
+          ),
         ),
+        // Tambahan tombol melayang di sudut kanan bawah
+        floatingActionButton: FloatingActionButton(
+          onPressed: () {
+            print("Tombol dipencet!");
+          },
+          backgroundColor: Colors.blueAccent,
+          child: const Icon(Icons.thumb_up, color: Colors.white),
+        ),
+      ),
     );
   }
 }
